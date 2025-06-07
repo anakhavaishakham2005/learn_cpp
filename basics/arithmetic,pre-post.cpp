@@ -23,7 +23,8 @@ int main(){
     cin>> r >> h;
     cout << "Volume of Cylinder:" << (22/7)*r*r*h << endl;
     cout << "Surface area: " << 2*3.14*r *(h+r)<< endl;
-
+    cout<< "Lateral surface area: " << 2*3.14*r*h << endl;
+    cout << "Base area: " << 3.14*r*r << endl;
 
 
 }
