@@ -9,5 +9,6 @@ int main(){
     cout<<5/2.0<<endl; // Implicit typecasting from int to float
     cout<<5.0/2.0<<endl; // Implicit typecasting from int to float
     cout<<5.0/2.0f<<endl; // Implicit typecasting from int to float
-
+    cout<<7/22*(3.14+2)*3/5<<endl;
+    //here 7/22 is integer division, so it will be 0.
 }
