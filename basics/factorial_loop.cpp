@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
+
     // int i,n,j;
     // cin >> n;
     // for(i=0;i<n;i++){
@@ -33,21 +34,28 @@ int main(){
     // }cout << endl;
     // }
 
+// int i,j,n;
+//     cin >> n;      
+//     int mid=n/2+1;              //  *  
+//     for(i=0;i<n;i++){           //  *  
+//       for(j=0;j<n;j++){         //***** 
+//           if(i==mid | j==mid)   //  *  
+//               cout << "*";      //  *   
+//           else cout << " ";     
+//     }cout << endl;
+//     }
+
+
 int i,j,n;
-    cin >> n;      
-    int mid=n/2+1;              //  *  
-    for(i=0;i<n;i++){           //  *  
-      for(j=0;j<n;j++){         //***** 
-          if(i==mid | j==mid)   //  *  
-              cout << "*";      //  *   
-          else cout << " ";     
-    }cout << endl;
+    cin >> n;               //    *
+    for(i=0;i<n;i++){       //   **
+      for(j=0;j<n-i;j++)    //  ***
+          cout << " ";      // ****
+       for (j=0;j<=i;j++)   //*****
+          cout << "*";      
+    cout << endl;
     }
-
-
-
-
-
+    
     return 0;
 
 }
